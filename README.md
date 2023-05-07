@@ -6,8 +6,8 @@ You can visit here [mooc webpage](https://www.mooc.fi/en/)
 Write a program, which asks user to type in strings one by one. When the user inputs an empty string, program outputs number of strings typed in, the length of the longest string and the most common character.
 
 Sample execution of the program, where thickened words are inputs from the user:
+<img src="C:\Users\arhin\Downloads\ex1.png"/>
 
-![](C:\Users\arhin\Downloads\ex1.png)
 
 The most common character in the sample execution of the program is a, because it occurs four times in strings given as input. You can make an assumption, that there is only one suitable candidate for the most common character, and that user inputs at least one string
 
@@ -20,14 +20,14 @@ a) def separate(string: str)
 Returns a list of tuples based on the string given as a parameter. Tuples in list consist of two elements. Strings are in format "string1a;string1b,string2a;string2b,string3a; ...". Tuples are separated from the string by a comma and the elements of the tuple by a semicolon, so that the string to the left of the semicolon is the left element of the tuple.
 
 Use the example below to test the function.
-![](C:\Users\arhin\Downloads\ex2.png)
+<img src="C:\Users\arhin\Downloads\ex2.png"/>
 
 b) def to_dictionary(my_list: list)
 
 Returns a dictionary based on the list given as parameter. The given list contains tuples consisting of two elements, such as the return value of the function in section a. The dictionary is constructed so that the tuples in the list correspond to key-value pairs, where the left element of the tuple is the key and the right element of the tuple is value.
 
 Use the example below to test the function.
-![](C:\Users\arhin\Downloads\ex2b.png)
+<img src="C:\Users\arhin\Downloads\ex2b.png"/>
 
 ## Exercise 3
 Write a function points(stats), which takes a string as its argument.
